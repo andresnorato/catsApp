@@ -1,0 +1,116 @@
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #34495e;
+}
+
+.header h1 {
+    color: white;
+    padding: 13px;
+    font-weight: 600;
+}
+
+.randomMichis {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.randomMichis h2 {
+    margin: 15px 0;
+    border-bottom: 1px solid #34495e;
+    width: 20%;
+}
+
+
+.randomMichis-info {
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.randomMichis-info  button {
+    color: #eb3b5a;
+    border: none;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid #eb3b5a;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.randomMichis-info  button:hover {
+    color: white;
+    background-color: #eb3b5a;
+}
+
+
+.reload {
+    display: grid;
+    margin-top: 20px;
+    justify-items: flex-end;
+}
+
+.reload .reload-button {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #34495e;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.favoritesMiches {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.favoritesMiches h2 {
+    margin: 15px 0;
+    border-bottom: 1px solid #eb3b5a;
+    color: #eb3b5a;
+    width: 20%;
+}
+
+.btnRemove {
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid #eb3b5a;
+    background-color: #eb3b5a;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .randomMichis-info  button {
+        width: 25%;
+    }
+
+    article img {
+      width: 300px;
+      height: 250;
+    }
+
+    .btnRemove {
+        width: 25%;
+    }
+
+  }

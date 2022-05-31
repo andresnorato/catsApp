@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <title>CATS API</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Cats App</h1>
+    </header>
+    <section id="randomMichis" class="randomMichis">
+      <h2>Cats randoms</h2>
+      <div class="randomMichis-info">
+        <article>
+          <img alt="photo" id="img1" />
+        </article>
+        <button id="btn1Random">Add Favorites</button>
+
+        <article>
+          <img alt="" id="img2" />
+        </article>
+        <button id="btn2Random">Add Favorites</button>
+
+        <article>
+          <img alt="" id="img3" />
+        </article>
+        <button id="btn3Random">Add Favorites</button>
+      </div>
+      <div class="reload">
+        <button class="reload-button" onclick="loadRandomCats()">Reload</button>
+      </div>
+    </section>
+
+    <section id="favoritesMiches" class="favoritesMiches">
+      <span id="error"></span>
+      <h2>Favorites Cats</h2>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
